@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:lightgrey;
+}
+
+main{
+    display: flex;
+}
+.navigation{
+    text-decoration: none;
+}
+.navigation:hover{
+    color: blue;
+}
+p{
+    color: lightgray;
+}
+header {
+text-decoration: none   ;
+font-family: 'ChronicaPro-Regular';
+background-color: white;
+width: 100%;
+height: 10%;
+text-align: center;
+display: flex;
+justify-content: center;
+margin-bottom: 20px;
+padding: 20px;
+font-style: initial;
+font-size: 20px;
+color: black;                                                               ;
+}
+/* SIDE MENU */
+.firstIcons{
+    background-color: white;
+    border: none;
+    border-radius: 8px;
+    transition: all 2s;
+    width: 40px;
+    height: 100%;
+    margin: 0;
+    padding: 0px;
+    z-index: 1;
+}
+.secondIcons i{
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+}
+.secondIcons span{
+    display: none;
+    color: black;
+    font-family: 'ChronicaPro-Regular';
+    font-size: 15px;
+}
+.secondIcons:hover span{
+    color: white;
+    display: inline-block;  
+}
+.secondIcons i:hover{
+    color: white;
+}
+.secondIcons:hover{
+    color: white;
+    display: inline-block;
+    background-color: blue;
+    width: 100px;
+    border-radius: 15px;
+}
+
+/* ОСНОВНА СТОРІНКА */
+section{
+    display: flex;
+    width: 100%;
+    height: 100%;
+
+}
+.accountLeft{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.accountUp{
+    margin: 0 10px;
+    padding: 10px 10px;
+    background-color: white;
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 15px;
+}
+.imageMail{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    background-color: tomato;
+    font-size: 50px;
+    line-height: 50px;
+    margin: 0;
+    padding: 0;
+    border-radius: 100%;
+    color: white;
+}
+.nameAbout{
+    margin-right: 270px;
+}
+.accountDown{
+    width: 100%;
+    height: 60%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    margin: 20px 10px;
+    padding: 20px 0px;
+}
+.password{
+display: flex;
+justify-content: space-between;
+width: 100%;
+height: 40%;
+padding: 0 10px;
+}
+
+.passwordImage{
+    width: 60px;
+    height: 60px;
+    text-align: left;
+    background-color: lightblue;
+    font-size: 40px;
+    line-height: 50px;
+    margin: 0;
+    padding: 2px 2px;
+    border-radius: 100%;
+    color: white;
+}
+.passwordAbout{
+    margin-right: 100px;
+}
+.passwordForms{
+    margin: 10px 10px;
+    padding: 10px;
+    padding-bottom: 40px;
+    
+}
+.passwordForms h4{
+    font-size: 17px;
+    font-family: 'ChronicaPro-Regular';
+    font-weight: bold;
+}
+.ps{
+    width: 80%;
+    height: 30px;
+    margin: 5px 10px;
+    border-radius: 20px;
+}
+.btn{
+    background-color: darkblue;
+    color: white;
+    position: relative;
+    bottom: 45%;
+    right: -75%;
+    border-radius: 17px;
+    font-size: 20px;
+    padding: 5px 13px;
+}
+
+
+/* ПРАВА ЧАСТИНА */
+.accountRight{
+    margin: 0 30px;
+    padding: 10px 30px;
+    background-color: white;
+    width: 55%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+}
+.companyImage{
+    width: 60px;
+    height: 60px;
+    text-align: left;
+    background-color: orangered;
+    font-size: 45px;
+    line-height: 50px;
+    margin: 0;
+    padding: 2px 0;
+    border-radius: 100%;
+    color: white;
+}
+.company{
+    display: flex;
+    justify-content: space-between;
+}
+.txt{
+    margin: 0 50px;
+    font-size: 17px;
+    font-family: 'ChronicaPro-Regular';
+    font-weight: bold;
+}
+.companyName input{
+    width: 80%;
+    height: 30px;
+    margin: 5px 2px;
+    border-radius: 20px;
+}
+.companyAbout{
+    margin-right: 170px;
+}
+.accountLeft form{
+    margin-bottom: 27px ;
+}
+.accountRight form{
+    margin-bottom: 55px ;
+}
+.companyAdress input{
+    width: 80%;
+    height: 150px;
+    padding-bottom: 110px;
+    border-radius: 20px; 
+    resize: none;    
+}
+input:focus{
+    border: 1px solid blue;
+    box-shadow: 0px 0 0 3px blue;
+    border-radius: 30px;
+}
+.firstLine{
+    display: flex;
+    justify-content: left;
+}
+.secondLine{
+    display: flex;
+    justify-content: left;
+}
+.country input{
+    width: 100%;
+    height: 30px;
+    margin: 5px 50px 5px 30px;
+    border-radius: 20px;
+}
+.secondBtn{
+    background-color: darkblue;
+    color: white;
+    position: relative;
+    bottom: 80%;
+    right: -85%;
+    border-radius: 17px;
+    font-size: 20px;
+    padding: 5px 13px;
+}
